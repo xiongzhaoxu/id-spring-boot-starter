@@ -3,6 +3,8 @@
 ---
 ## 概述
 
+代码来至：https://github.com/hansonwang99/Spring-Boot-In-Action
+
 ID号生成器（或：全局唯一ID生成器）是服务端系统的基础设施，而且ID号这个东西基本搞后端开发的程序员天天都要接触。而关于ID生成的算法现在业界首屈一指的当属`Snowflake`雪花算法。
 
 `UidGenerator`正是百度开源的一款基于`Snowflake`雪花算法实现的高性能唯一ID生成器。在本号前文中已经详细使用过`UidGenerator`，但使用过程还是比较繁杂，还需要自己去引`UidGenerator`组件的源码，感觉有点不方便。为此本文基于`UidGenerator`，再来封装一套更利于`Spring Boot`项目使用的`ID`号生成组件，命名为`id-spring-boot-starter`，一看名字就知道是开箱即用的。
