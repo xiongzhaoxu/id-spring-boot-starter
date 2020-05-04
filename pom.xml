@@ -6,7 +6,7 @@
 
     <groupId>com.oozol</groupId>
     <artifactId>id-spring-boot-starter</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.1-RELEASE</version>
     <packaging>jar</packaging>
     <name>id-spring-boot-starter</name>
     <description>Java id-spring-boot-starter</description>
@@ -54,13 +54,13 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.2.3</version>
+            <version>3.4.6</version>
         </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>1.2.4</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis</groupId>-->
+            <!--<artifactId>mybatis-spring</artifactId>-->
+            <!--<version>1.2.4</version>-->
+        <!--</dependency>-->
 
         <!-- Apache Commons -->
         <dependency>
